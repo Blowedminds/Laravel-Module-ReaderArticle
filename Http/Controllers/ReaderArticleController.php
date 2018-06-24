@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Reader\Article;
+namespace App\Modules\Reader\Article\Http\Controllers;
 
-use App\Category;
-use App\Language;
+use App\Modules\Core\Category;
+use App\Modules\Core\Language;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-use App\Article;
+use App\Modules\Core\Article;
 use Illuminate\Support\Facades\Cache;
 
 class ReaderArticleController extends Controller
